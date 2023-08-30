@@ -1,0 +1,26 @@
+{
+    "editor.formatOnSave": true,
+    "files.associations": {
+        "*.css": "tailwindcss"
+    },
+    "editor.quickSuggestions": {
+        "strings": true
+    },
+    "tailwindCSS.experimental.configFile": "tailwind.config.ts",
+    "tailwindCSS.experimental.classRegex": [
+        ["ui:\\s*{([^)]*)\\s*}", "[\"'`]([^\"'`]*).*?[\"'`]"],
+        ["/\\*ui\\*/\\s*{([^;]*)}", ":\\s*[\"'`]([^\"'`]*).*?[\"'`]"]
+    ],
+    "tailwindCSS.classAttributes": [
+        "class",
+        "ui"
+    ],
+    "typescript.referencesCodeLens.enabled": true,
+    "nuxtr.defaultPackageManager": "pnpm",
+    "nuxtr.vueFiles.firstTag": "script",
+    "nuxtr.openItemsAfterCreation": true,
+    "nuxtr.vueFiles.script.defaultLanguage": "ts",
+    "nuxtr.vueFiles.script.type": "setup",
+    "nuxtr.vueFiles.style.alwaysScoped": true,
+    "nuxtr.vueFiles.style.defaultLanguage": "scss"
+}
